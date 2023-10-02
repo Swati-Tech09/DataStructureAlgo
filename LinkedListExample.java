@@ -3,6 +3,7 @@ import java.util.LinkedList;
 
 // LinkedList can use as Stack with push - LIFO
 // offer can work as queue -FIFO
+// It is best for Insert/Delete , search is costly
 public class LinkedListExample {
     public static void main(String[] args) {
 
@@ -18,6 +19,7 @@ public class LinkedListExample {
         l.offer("B");
         l.offer("C");
         System.out.println(l.poll());
+
 
     }
 }
